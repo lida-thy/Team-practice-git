@@ -42,3 +42,39 @@ ul li{
 a{
     text-decoration: none;
 }
+/* skill and footer */
+.row{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 80%;
+    height: 40vh;
+    gap: 15px;
+    margin: auto;
+}
+.box{
+    height: 30vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid#ccc;
+}
+.icon{
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 100px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    color: #fff;
+}
+.contact{
+    width: 40%;
+    text-align: center;
+}
